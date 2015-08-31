@@ -12,8 +12,8 @@ namespace ExercicioThread
     {
         
 
-             private const String diretorioOrigem = "C:\\Programming\\arquivos-teste-threads-csharp\\";
-        private const String diretorioDestino = "C:\\Programming\\arquivos-teste-threads-csharp-copiados\\";
+             private const String diretorioOrigem = "C:\\PASTA1\\";
+        private const String diretorioDestino = "C:\\PASTA2\\";
 
         static void Main(string[] args)
         {
