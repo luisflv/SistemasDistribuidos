@@ -12,8 +12,8 @@ namespace ExercicioThread
     {
         
 
-             private const String diretorioOrigem = "C:\\PASTA1\\";
-        private const String diretorioDestino = "C:\\PASTA2\\";
+        private const String diretorioOrigem = "C:\\PASTA_ORIGEM\\";
+        private const String diretorioDestino = "C:\\PASTA_DESTINO\\";
 
         static void Main(string[] args)
         {
@@ -25,7 +25,7 @@ namespace ExercicioThread
             thread1.Name = "thread1";
             thread1.Start();
 
-            Thread thread2 = new Thread(() => { Move(files.GetRange(6, 5)); });
+            Thread thread2 = new Thread(() => { Move(files.GetRange(5, 5)); });
             thread2.Name = "thread2";
             thread2.Start();
         }
